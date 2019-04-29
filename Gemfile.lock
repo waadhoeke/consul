@@ -204,8 +204,9 @@ GEM
       request_store (~> 1.0)
     globalize-accessors (0.2.1)
       globalize (~> 5.0, >= 5.0.0)
-    graphiql-rails (1.4.8)
-      rails
+    graphiql-rails (1.7.0)
+      railties
+      sprockets-rails
     graphql (1.7.8)
     groupdate (3.2.0)
       activesupport (>= 3)
@@ -297,7 +298,7 @@ GEM
     net-ssh (5.0.2)
     newrelic_rpm (4.1.0.333)
     nio4r (2.3.1)
-    nokogiri (1.10.2)
+    nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     nori (2.6.0)
     oauth (0.5.4)
@@ -346,7 +347,7 @@ GEM
     powerpack (0.1.2)
     public_suffix (3.0.3)
     puma (3.12.1)
-    rack (2.0.6)
+    rack (2.0.7)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-attack (5.0.1)
@@ -559,7 +560,7 @@ DEPENDENCIES
   foundation_rails_helper (~> 2.0.0)
   globalize (~> 5.2.0)
   globalize-accessors (~> 0.2.1)
-  graphiql-rails (~> 1.4.1)
+  graphiql-rails (~> 1.7.0)
   graphql (~> 1.7.8)
   groupdate (~> 3.2.0)
   i18n-tasks (~> 0.9.25)
