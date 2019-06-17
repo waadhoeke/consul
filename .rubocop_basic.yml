@@ -14,6 +14,9 @@ AllCops:
   # to ignore them, so only the ones explicitly set in this file are enabled.
   DisabledByDefault: true
 
+FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+
 Layout/IndentationConsistency:
   EnforcedStyle: rails
 
