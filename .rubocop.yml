@@ -102,9 +102,6 @@ Rails/Blank:
 Rails/CreateTableWithTimestamps:
   Enabled: true
 
-Rails/Date:
-  Enabled: true
-
 Rails/Delegate:
   Enabled: true
 
@@ -190,9 +187,6 @@ Rails/ScopeArgs:
   Enabled: true
 
 Rails/SkipsModelValidations:
-  Enabled: true
-
-Rails/TimeZone:
   Enabled: true
 
 Rails/UniqBeforePluck:
