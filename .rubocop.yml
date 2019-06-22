@@ -265,9 +265,6 @@ RSpec/LeadingSubject:
 RSpec/LetBeforeExamples:
   Enabled: true
 
-RSpec/LetSetup:
-  Enabled: true
-
 RSpec/MessageChain:
   Enabled: true
 
