@@ -117,6 +117,9 @@ Rails/Date:
 Rails/PluralizationGrammar:
   Enabled: true
 
+Rails/Presence:
+  Enabled: true
+
 Rails/RelativeDateConstant:
   Enabled: true
 

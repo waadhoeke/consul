@@ -153,9 +153,6 @@ Rails/Output:
 Rails/OutputSafety:
   Enabled: true
 
-Rails/Presence:
-  Enabled: true
-
 Rails/Present:
   Enabled: true
 
