@@ -162,9 +162,6 @@ Rails/ReadWriteAttribute:
 Rails/RedundantReceiverInWithOptions:
   Enabled: true
 
-Rails/RequestReferer:
-  Enabled: true
-
 Rails/ReversibleMigration:
   Enabled: true
 
