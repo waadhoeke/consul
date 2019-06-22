@@ -18,16 +18,7 @@ Performance/EndWith:
 Performance/StartWith:
   Enabled: true
 
-Rails/ActionFilter:
-  Enabled: true
-
 Rails/ActiveSupportAliases:
-  Enabled: true
-
-Rails/ApplicationJob:
-  Enabled: true
-
-Rails/ApplicationRecord:
   Enabled: true
 
 Rails/Blank:
@@ -69,9 +60,6 @@ Rails/HasAndBelongsToMany:
 Rails/HasManyOrHasOneDependent:
   Enabled: true
 
-Rails/HttpPositionalArguments:
-  Enabled: true
-
 Rails/InverseOf:
   Enabled: true
 
@@ -100,9 +88,6 @@ Rails/ReversibleMigration:
   Enabled: true
 
 Rails/SaveBang:
-  Enabled: true
-
-Rails/ScopeArgs:
   Enabled: true
 
 Rails/SkipsModelValidations:
