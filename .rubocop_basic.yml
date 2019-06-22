@@ -114,6 +114,9 @@ Metrics/LineLength:
 Rails/Date:
   Enabled: true
 
+Rails/PluralizationGrammar:
+  Enabled: true
+
 Rails/RelativeDateConstant:
   Enabled: true
 

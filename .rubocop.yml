@@ -153,9 +153,6 @@ Rails/Output:
 Rails/OutputSafety:
   Enabled: true
 
-Rails/PluralizationGrammar:
-  Enabled: true
-
 Rails/Presence:
   Enabled: true
 
