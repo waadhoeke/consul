@@ -303,9 +303,6 @@ Rails/HttpStatus:
 RSpec/RepeatedDescription:
   Enabled: true
 
-RSpec/RepeatedExample:
-  Enabled: true
-
 RSpec/ReturnFromStub:
   Enabled: true
 

@@ -154,6 +154,9 @@ RSpec/LetSetup:
 RSpec/NotToNot:
   Enabled: true
 
+RSpec/RepeatedExample:
+  Enabled: true
+
 Style/PercentLiteralDelimiters:
   Enabled: true
 
