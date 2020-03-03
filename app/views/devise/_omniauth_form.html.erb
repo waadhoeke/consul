@@ -1,4 +1,4 @@
-<% if feature?(:twitter_login) || feature?(:facebook_login) || feature?(:google_login) %>
+<% if feature?(:twitter_login) || feature?(:facebook_login) || feature?(:google_login) || feature?(:irma_login) %>
 
   <% if current_page?(new_user_session_path) %>
     <div class="row">
@@ -41,6 +41,15 @@
                       title: t("omniauth.wordpress_oauth2.sign_in"),
                       class: "button-wordpress button expanded",
                       method: :post %>
+        </div>
+      <% end %>
+
+      <% if feature? :irma_login %>
+        <div class="small-12 medium-6 large-4 column end">
+          <%= link_to t("omniauth.irma.name"), "#",
+                      title: t("omniauth.irma.sign_in"),
+                      class: "button-irma button expanded",
+                      id: "irma-login-button" %>
         </div>
       <% end %>
 
@@ -91,6 +100,15 @@
                       title: t("omniauth.wordpress_oauth2.sign_up"),
                       class: "button-wordpress button expanded",
                       method: :post %>
+        </div>
+      <% end %>
+
+      <% if feature? :irma_login %>
+        <div class="small-12 medium-6 large-4 column end">
+          <%= link_to t("omniauth.irma.name"), "#",
+                      title: t("omniauth.irma.sign_up"),
+                      class: "button-irma button expanded",
+                      id: "irma-register-button" %>
         </div>
       <% end %>
 

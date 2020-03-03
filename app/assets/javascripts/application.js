@@ -111,6 +111,8 @@
 //= require columns_selector
 //= require budget_edit_associations
 //= require link_to_top
+//= require irma
+//= require irma_omniauth
 
 var initialize_modules = function() {
   "use strict";

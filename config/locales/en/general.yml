@@ -301,6 +301,10 @@ en:
       sign_in: Sign in with Twitter
       sign_up: Sign up with Twitter
       name: Twitter
+    irma:
+      sign_in: "Sign in with IRMA"
+      sign_up: "Sign up with IRMA"
+      name: "IRMA"
     info_sign_in: "Sign in with:"
     info_sign_up: "Sign up with:"
     or_fill: "Or fill the following form:"

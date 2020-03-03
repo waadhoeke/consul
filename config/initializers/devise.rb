@@ -1,4 +1,5 @@
 require Rails.root.join("lib", "omniauth_wordpress")
+require_dependency "omniauth/irma"
 
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
@@ -249,6 +250,7 @@ Devise.setup do |config|
                   Rails.application.secrets.wordpress_oauth2_secret,
                   strategy_class: OmniAuth::Strategies::Wordpress,
                   client_options: { site: Rails.application.secrets.wordpress_oauth2_site }
+  config.omniauth :irma, strategy_class: OmniAuth::Strategies::Irma
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

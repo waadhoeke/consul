@@ -47,6 +47,11 @@ nl:
     budget/investment: "idee"
     not_saved: "zorgden ervoor dat je %{resource} niet geplaatst kan worden. <br>Bekijk de rode tekst om te zien wat aangepast moet worden."
     budget/investment: "idee"
+  omniauth:
+    irma:
+      sign_in: "Inloggen met IRMA"
+      sign_up: "Aanmelden met IRMA"
+      name: "IRMA"
   proposals:
     form:
       proposal_summary_note: "(maximaal 200 karakters)"
