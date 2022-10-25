@@ -237,6 +237,10 @@ ignore_unused:
   - "sdg.*.filter.more.*"
   - "sdg_management.relations.index.filter*"
   - "tags.list.filter.more.*"
+  - "layouts.footer.consul"
+  - "layouts.footer.consul_url"
+  - "layouts.footer.open_source"
+  - "layouts.footer.open_source_url"
 ####
 ## Exclude these keys from the `i18n-tasks eq-base" report:
 # ignore_eq_base:
