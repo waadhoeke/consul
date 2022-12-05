@@ -241,6 +241,7 @@ ignore_unused:
   - "layouts.footer.consul_url"
   - "layouts.footer.open_source"
   - "layouts.footer.open_source_url"
+  - "layouts.header.poll_questions"
 ####
 ## Exclude these keys from the `i18n-tasks eq-base" report:
 # ignore_eq_base:
