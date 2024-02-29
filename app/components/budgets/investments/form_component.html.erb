@@ -83,13 +83,13 @@
                                   data: { js_url: suggest_tags_path } %>
     </div>
 
-    <%= render SDG::RelatedListSelectorComponent.new(f) %>    
+    <%= render SDG::RelatedListSelectorComponent.new(f) %>
   </fieldset>
 
   <div class="actions">
     <% unless current_user.manager? || investment.persisted? %>
       <div>
-        <%= render Shared::AgreeWithTermsOfServiceFieldComponent.new(f) %>        
+        <%= render Shared::AgreeWithTermsOfServiceFieldComponent.new(f) %>
       </div>
     <% end %>
 
