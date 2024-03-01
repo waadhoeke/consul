@@ -91,8 +91,8 @@ FactoryBot.define do
     sequence(:name) { |n| "Heading #{n}" }
     price { 1000000 }
     population { 1234 }
-    latitude { Setting["map.latitude"] }
-    longitude { Setting["map.longitude"] }
+    latitude { MapLocation.default_latitude }
+    longitude { MapLocation.default_longitude }
 
     transient { budget { nil } }
     group { association :budget_group, budget: budget || association(:budget) }

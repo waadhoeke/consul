@@ -74,9 +74,9 @@ FactoryBot.define do
   end
 
   factory :map_location do
-    latitude { Setting["map.latitude"] }
-    longitude { Setting["map.longitude"] }
-    zoom { Setting["map.zoom"] }
+    latitude { MapLocation.default_latitude }
+    longitude { MapLocation.default_longitude }
+    zoom { MapLocation.default_zoom }
 
     trait :proposal_map_location do
       proposal

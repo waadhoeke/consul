@@ -30,6 +30,7 @@ class Admin::Settings::FeaturesTabComponent < ApplicationComponent
       feature.link_to_top
       feature.logo_image_footer
       feature.welcome_steps
+      map.feature.marker_clustering
     ]
   end
 end

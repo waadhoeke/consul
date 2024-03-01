@@ -90,7 +90,7 @@ shared_examples "mappable" do |mappable_factory_name, mappable_association_name,
         else
           click_link "CONSUL"
 
-          expect(page).to have_content "Most active proposals"
+          expect(page).to have_content "Most active debates"
         end
 
         go_back
@@ -123,7 +123,7 @@ shared_examples "mappable" do |mappable_factory_name, mappable_association_name,
         else
           click_link "CONSUL"
 
-          expect(page).to have_content "Most active proposals"
+          expect(page).to have_content "Most active debates"
         end
 
         go_back
@@ -156,7 +156,7 @@ shared_examples "mappable" do |mappable_factory_name, mappable_association_name,
         else
           click_link "CONSUL"
 
-          expect(page).to have_content "Most active proposals"
+          expect(page).to have_content "Most active debates"
         end
 
         go_back

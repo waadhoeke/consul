@@ -210,7 +210,7 @@ describe "Admin settings", :admin do
         expect(page).to have_css("div#tab-map-configuration.is-active")
       end
 
-      scenario "On #tab-map-configuration when using the interactive map" do
+      scenario "On #tab-map-configuration when using the interactive map", :consul do
         visit admin_settings_path(anchor: "tab-map-configuration")
         within "#map-form" do
           click_button "Update"

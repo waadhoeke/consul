@@ -13,18 +13,11 @@ describe Shared::AgreeWithTermsOfServiceFieldComponent do
   let(:form) { ConsulFormBuilder.new(:dummy, DummyModel.new, ApplicationController.new.view_context, {}) }
   let(:component) { Shared::AgreeWithTermsOfServiceFieldComponent.new(form) }
 
-  it "contains links that open in a new window", :consul do
+  it "contains a hidden field with terms of service accepted" do
     render_inline component
 
-    expect(page).to have_css "a[target=_blank]", count: 2
-  end
-
-  it "contains links indicating they open in a new window", :consul do
-    render_inline component
-
-    expect(page).to have_link count: 2
-    expect(page).to have_link "Privacy Policy"
-    expect(page).to have_link "Terms and conditions of use"
-    expect(page).to have_link "Link opens in new window", count: 2
+    expect(page).to have_css "input[type=hidden]", visible: :hidden
+    expect(page).to have_css "input[id=dummy_terms_of_service]", visible: :hidden
+    expect(page).to have_css "input[value=1]", visible: :hidden
   end
 end
