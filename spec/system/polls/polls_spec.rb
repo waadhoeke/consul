@@ -87,7 +87,7 @@ describe "Polls" do
       expect(page).not_to have_link("Expired")
     end
 
-    scenario "Displays a message asking anonymous users to sign in" do
+    scenario "Displays a message asking anonymous users to sign in", :consul do
       create_list(:poll, 3)
 
       visit polls_path
@@ -96,7 +96,7 @@ describe "Polls" do
       expect(page).to have_content("You must sign in or sign up to participate")
     end
 
-    scenario "Displays a message asking unverified users to verify their account" do
+    scenario "Displays a message asking unverified users to verify their account", :consul do
       create_list(:poll, 3)
       user = create(:user)
       login_as(user)
